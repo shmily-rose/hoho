@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="vi">
 <head>
@@ -14,10 +13,11 @@
         .image, .video {text-align: center;margin-bottom: 20px;}
         .image img { width: 800px;max-width: 800px;border-radius: 30px;}
         .video iframe { width: 500px; height: 400px;border-radius: 10px;}
-        .content {background-color: pink;padding: 20px; border-radius: 30px;box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);font-size: 30px;}
+        .content {background-color: pink;padding: 20px; border-radius: 30px;box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);font-size: 30px;} 
         .shmily {background-color: pink;padding: 20px; border-radius: 30px;box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);font-size: 30px;}
+        .input{background-color: cyan;padding: 5px; width: 5%;font-size: 15px;}
         .quote { font-size: 1.2em;color: #ff6600;margin-top: 30px;text-align: center;font-size: 30px;}
-        footer {text-align: center;background-color: hotpink; padding: 10px;color: white;position: fixed;bottom: 0;width: 100%;font-size: 30px;}
+        footer {text-align: center;background-color: hotpink; padding: 10px;color: white;position: fixed;bottom: 0;width: 100%;font-size: 20px; height: 80px;}
         p{ font-size: 40px;}
         textarea {background-color: white;}
         ul{text-align: center; font-size: 40px; }
@@ -29,15 +29,15 @@
     <h1>Báo Tường Nụ Cười</h1>
     <p>Chia sẻ niềm vui và nụ cười trong cuộc sống</p>
 </header>
-<form action="baotuong.html" method="POST">
+<form action="camon.html" method="POST">
 
 <div class="container">
     <div class="image">
         <img src="https://scr.vn/wp-content/uploads/2020/08/Khi-thi%C3%AAn-th%E1%BA%A7n-nh%E1%BB%8F-c%C6%B0%E1%BB%9Di.jpg" alt="Nụ Cười">
-        <p><audio src="C:\hiên\BauTroiMoiLaszhRemix-DaLABMinhTocLam-16662748.mp3" controls></audio></p>
+        <p><audio src="https://zingmp3.vn/bai-hat/Bau-Troi-Moi-Da-LAB-Minh-Toc-Lam/Z7CWWFD6.html" controls></audio></p>
     </div>
     <div class="content">
-       
+        
         <ul>
             <h4> Nụ Cười Của Bé </h4>
             <li>Nụ cười của bé nói muôn lời</li>
@@ -50,13 +50,13 @@
         </ul>
     </div>
     <div class="video">
-        <video src="C:\hiên\haihuoc.crdownload" controls></video>
+        <video src="https://vn.pikbest.com/video/cartoon-sky-nursery-rhyme-background_1440449.html" controls></video>
 
     </div>
     <div class="content">
         <h2>Niềm vui đến từ những nụ cười</h2>
         <p>Cuộc sống không thể thiếu đi những nụ cười. Một nụ cười có thể làm cho cả ngày của bạn tươi sáng hơn. Hãy chia sẻ niềm vui và nụ cười với mọi người xung quanh để thế giới này trở nên tốt đẹp hơn.</p>
-       
+        
         <div class="quote">
             <p>"Nụ cười là món quà tuyệt vời nhất bạn có thể trao đi mà không bao giờ bị mất đi."</p>
         </div>
@@ -70,12 +70,16 @@
       <p><input type="checkbox" name="papa"> Nhìn những đứa nhỏ vui đùa</p>
       <p><input type="checkbox" name="inin"> Được nghe truyện cười </p>    
 <p>Bạn hãy kể ra những niềm vui của bạn vào này nhé:<textarea name="ykien" rows="8" cols="80"></textarea></p>
-     
+<div class="mily">
+   <p> <input type="submit" name="yes" > gửi</p>  
 </div>
- <p> <input type="submit" name="yes" > gửi</p>
+ </div>
+ 
+ <ul>
 <footer>
     <p>2025 Báo Tường Nụ Cười - Hiên Nguyễn</p>
 </footer>
+</ul>
+</form>
 </body>
 </html>
-
